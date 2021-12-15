@@ -18,6 +18,9 @@ public class Game {
     }
     void startGame()
     {
+        for (Map.Entry<String,Integer> initialplayerPosition : playerPosition.entrySet() ){
+            System.out.println(initialplayerPosition.getKey()+" is at "+initialplayerPosition.getValue());
+        }
     
     while(nextTurn.size()>1){
         Players player = nextTurn.poll();
