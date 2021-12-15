@@ -1,0 +1,273 @@
+User input:
+
+// Enter No of Dice : 1
+// Enter No of Players : 4
+// Enter Player id :76
+// Enter Player Name :chinmai
+// Enter Player id :2
+// Enter Player Name :Ram
+// Enter Player id :3
+// Enter Player Name :Vaseem
+// Enter Player id :4
+// Enter Player Name :sindhu
+// Enter No of Snake jumps:3
+// snake head :43
+// snake tail:19
+// snake head :99
+// snake tail:21
+// snake head :87
+// snake tail:35
+// Enter No of Ladder jumps:3
+// ladder tail :28
+// ladder head:88
+// ladder tail :9
+// ladder head:61
+// ladder tail :58
+// ladder head:94
+
+Output:
+// chinmai is at position 1
+// Ram is at position 1
+// Vaseem is at position 1
+// sindhu is at position 1
+// chinmai is at position 2
+// Ram is at position 4
+// Vaseem is at position 4
+// sindhu is at position 4
+// chinmai is at position 4
+// Ram is at position 5
+// Vaseem is at position 8
+// sindhu is at position 6
+// chinmai climbed on ladder
+// chinmai is at position 61
+// Ram is at position 6
+// Vaseem is at position 12
+// sindhu is at position 10
+// chinmai is at position 64
+// Ram is at position 11
+// Vaseem is at position 16
+// sindhu is at position 13
+// chinmai is at position 68
+// Ram is at position 14
+// Vaseem is at position 21
+// sindhu is at position 15
+// chinmai is at position 73
+// Ram is at position 19
+// Vaseem is at position 24
+// sindhu is at position 18
+// chinmai is at position 76
+// Ram is at position 24
+// Vaseem climbed on ladder
+// Vaseem is at position 88
+// sindhu is at position 23
+// chinmai is at position 77
+// Ram is at position 25
+// Vaseem is at position 93
+// sindhu is at position 27
+// chinmai is at position 80
+// Ram is at position 30
+// Vaseem is at position 96
+// sindhu is at position 31
+// chinmai is at position 84
+// Ram is at position 31
+// Vaseem bitten by snake
+// Vaseem is at position 21
+// sindhu is at position 35
+// chinmai is at position 89
+// Ram is at position 34
+// Vaseem is at position 23
+// sindhu is at position 40
+// chinmai is at position 92
+// Ram is at position 36
+// Vaseem is at position 24
+// sindhu is at position 42
+// chinmai is at position 94
+// Ram is at position 40
+// Vaseem is at position 27
+// sindhu bitten by snake
+// sindhu is at position 19
+// chinmai bitten by snake
+// chinmai is at position 21
+// Ram is at position 44
+// Vaseem is at position 30
+// sindhu is at position 22
+// chinmai is at position 22
+// Ram is at position 47
+// Vaseem is at position 34
+// sindhu is at position 27
+// chinmai is at position 27
+// Ram is at position 50
+// Vaseem is at position 37
+// sindhu climbed on ladder
+// sindhu is at position 88
+// chinmai is at position 31
+// Ram is at position 53
+// Vaseem is at position 40
+// sindhu is at position 89
+// chinmai is at position 36
+// Ram is at position 56
+// Vaseem is at position 45
+// sindhu is at position 93
+// chinmai is at position 38
+// Ram is at position 59
+// Vaseem is at position 47
+// sindhu is at position 95
+// chinmai is at position 42
+// Ram is at position 62
+// Vaseem is at position 51
+// sindhu is at position 96
+// chinmai is at position 47
+// Ram is at position 66
+// Vaseem is at position 52
+// chinmai is at position 51
+// Ram is at position 67
+// Vaseem is at position 56
+// sindhu won the game
+// chinmai is at position 52
+// Ram is at position 69
+// Vaseem is at position 61
+// chinmai is at position 53
+// Ram is at position 70
+// Vaseem is at position 65
+// chinmai climbed on ladder
+// chinmai is at position 94
+// Ram is at position 74
+// Vaseem is at position 70
+// chinmai bitten by snake
+// chinmai is at position 21
+// Ram is at position 76
+// Vaseem is at position 74
+// chinmai is at position 22
+// Ram is at position 80
+// Vaseem is at position 76
+// chinmai is at position 27
+// Ram is at position 85
+// Vaseem is at position 79
+// chinmai is at position 32
+// Ram bitten by snake
+// Ram is at position 35
+// Vaseem is at position 84
+// chinmai is at position 35
+// Ram is at position 37
+// Vaseem is at position 89
+// chinmai is at position 38
+// Ram is at position 38
+// Vaseem is at position 90
+// chinmai is at position 39
+// Ram is at position 39
+// Vaseem is at position 95
+// chinmai is at position 41
+// Ram is at position 40
+// Vaseem bitten by snake
+// Vaseem is at position 21
+// chinmai is at position 44
+// Ram bitten by snake
+// Ram is at position 19
+// Vaseem is at position 25
+// chinmai is at position 46
+// Ram is at position 21
+// Vaseem is at position 27
+// chinmai is at position 51
+// Ram is at position 22
+// Vaseem climbed on ladder
+// Vaseem is at position 88
+// chinmai is at position 55
+// Ram is at position 23
+// Vaseem is at position 93
+// chinmai is at position 57
+// Ram is at position 25
+// Vaseem is at position 96
+// chinmai is at position 62
+// Ram is at position 26
+// chinmai is at position 67
+// Ram is at position 31
+// Vaseem is at position 98
+// chinmai is at position 68
+// Ram is at position 33
+// Vaseem won the game
+// chinmai is at position 72
+// Ram is at position 36
+// chinmai is at position 73
+// Ram is at position 38
+// chinmai is at position 78
+// Ram bitten by snake
+// Ram is at position 19
+// chinmai is at position 82
+// Ram is at position 23
+// chinmai bitten by snake
+// chinmai is at position 35
+// Ram is at position 25
+// chinmai is at position 39
+// Ram is at position 27
+// chinmai bitten by snake
+// chinmai is at position 19
+// Ram is at position 31
+// chinmai is at position 20
+// Ram is at position 32
+// chinmai is at position 22
+// Ram is at position 35
+// chinmai is at position 25
+// Ram is at position 38
+// chinmai is at position 27
+// Ram is at position 42
+// chinmai is at position 32
+// Ram bitten by snake
+// Ram is at position 19
+// chinmai is at position 36
+// Ram is at position 24
+// chinmai is at position 40
+// Ram is at position 25
+// chinmai is at position 42
+// Ram climbed on ladder
+// Ram is at position 88
+// chinmai is at position 46
+// Ram is at position 91
+// chinmai is at position 49
+// Ram is at position 92
+// chinmai is at position 52
+// Ram is at position 93
+// chinmai is at position 56
+// Ram is at position 96
+// chinmai is at position 60
+// Ram bitten by snake
+// Ram is at position 21
+// chinmai is at position 61
+// Ram is at position 25
+// chinmai is at position 62
+// Ram is at position 30
+// chinmai is at position 67
+// Ram is at position 32
+// chinmai is at position 68
+// Ram is at position 37
+// chinmai is at position 69
+// Ram is at position 40
+// chinmai is at position 73
+// Ram bitten by snake
+// Ram is at position 19
+// chinmai is at position 77
+// Ram is at position 23
+// chinmai is at position 78
+// Ram is at position 24
+// chinmai is at position 83
+// Ram climbed on ladder
+// Ram is at position 88
+// chinmai is at position 88
+// Ram is at position 91
+// chinmai is at position 90
+// Ram is at position 96
+// chinmai is at position 95
+// Ram is at position 97
+// chinmai bitten by snake
+// chinmai is at position 21
+// Ram bitten by snake
+// Ram is at position 21
+// chinmai is at position 25
+// Ram is at position 22
+// chinmai climbed on ladder
+// chinmai is at position 88
+// Ram is at position 23
+// chinmai is at position 93
+// Ram is at position 27
+// chinmai is at position 96
+// Ram is at position 29
+// chinmai won the game
